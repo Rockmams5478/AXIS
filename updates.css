@@ -240,7 +240,7 @@ a {
 
 }
 
-@media (max-width: 360px) {
+@media (max-width: 430px) {
 
     .container {
         width: 320px;
@@ -337,5 +337,6 @@ a {
         width: 320px;
         font-size: 12px;
     }
+
 
 }
