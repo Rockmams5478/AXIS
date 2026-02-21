@@ -22,13 +22,21 @@ body {
     background: linear-gradient(230deg, #ccd0cf, #9ba8ab, #4a5c6a, #253745, #11212d, #06141b);
     margin-bottom: 20px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
 }
 
 .axis-logo img {
     width: auto;
     height: 100px;
-    margin: 10px;
     border-radius: 50%;
 }
 
@@ -38,10 +46,21 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px;
+    margin: 20px;
     gap: 10px;
     background-color: rgba(32, 43, 43, 0.39);
     border-radius: 20px;
+}
+
+.slogan {
+    height: 60px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: whitesmoke;
 }
 
 a {
@@ -109,7 +128,157 @@ a {
     align-items: center;
 }
 
+.jobs:hover, 
+.brand:hover, 
+.home:hover, 
+.extras:hover, 
+.updates:hover {
+    background-color: #c5bac4;
+    height: 55px;
+    width: 135px;
+}
 
+.explore:hover,
+.view:hover,
+.start:hover {
+    background-color: #c5bac4;
+    height: 55px;
+    width: 215px;
+}
+
+.line {
+    font-size: 40px;
+    font-weight: 400;
+    margin: 6px;
+    color: #e7e7e7
+}
+
+.para {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 6px;
+    color: #e7e7e7;
+}
+
+.list {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 6px;
+    color: #e7e7e7;
+}
+
+.under {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 6px;
+    color: #e7e7e7;
+}
+
+.intro {
+    background-color: #253745;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.what {
+    background-color: #253745;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.why {
+    background-color: #253745;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.axis-brand {
+    background-color: #253745;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.acc {
+    background-color: #253745;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.late {
+    background-color: #253745;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.action {
+    background-color: #253745;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.explore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: 10px;
+    height: 40px;
+    width: 200px;
+    font-size: 22px;
+    background-color: rgba(94, 109, 109, 0.534);
+}
+
+.view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: 10px;
+    height: 40px;
+    width: 200px;
+    font-size: 22px;
+    background-color: rgba(94, 109, 109, 0.534);
+}
+
+.start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: 10px;
+    height: 40px;
+    width: 200px;
+    font-size: 22px;
+    background-color: rgba(94, 109, 109, 0.534);
+}
 
 .footerbox {
     height: auto;
@@ -157,8 +326,11 @@ a {
 }
 
 .contact {
+    width: 820px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     font-size: 18px;
     font-weight: bold;
     gap: 10px;
@@ -244,12 +416,17 @@ a {
 @media (max-width: 430px) {
 
     .container {
-        width: 320px;
+        width: 400px;
         margin: 0px;
     }
 
     .headerbox {
         height: 120px;
+        margin-bottom: 10px;
+    }
+
+    .nav {
+        height: 60px;
     }
 
     .axis-logo img {
@@ -260,40 +437,131 @@ a {
     }
 
     .nav-bar {
-        width: 240px;
+        width: 320px;
         gap: 5px;
         margin: 0;
         margin-top: 10px;
     }
 
+    .slogan {
+        font-size: 20px;
+    }
+
     .jobs {
         width: 60px;
-        font-size: 12px;
-        border-radius: 10px;
+        font-size: 18px;
+        border-radius: 20px;
     }
 
     .brand {
         width: 60px;
-        font-size: 12px;
-        border-radius: 10px;
+        font-size: 18px;
+        border-radius: 20px;
     }
 
     .home {
         width: 60px;
-        font-size: 12px;
-        border-radius: 10px;
+        font-size: 18px;
+        border-radius: 20px;
     }
 
     .extras {
         width: 60px;
-        font-size: 12px;
-        border-radius: 10px;
+        font-size: 18px;
+        border-radius: 20px;
     }
 
     .updates {
         width: 60px;
-        font-size: 12px;
-        border-radius: 10px;
+        font-size: 16px;
+        border-radius: 20px;
+    }
+
+    .jobs:hover,
+    .brand:hover,
+    .home:hover,
+    .extras:hover,
+    .updates:hover {
+        width: 75px;
+    }
+
+    .line {
+        font-size: 20px;
+        margin: 3px;
+    }
+
+    .para {
+        font-size: 10px;
+        margin: 3px;
+    }
+
+    .list {
+        font-size: 10px;
+        margin: 3px;
+    }
+
+    .under {
+        font-size: 15px;
+        margin: 3px;
+    }
+
+    .intro {
+        margin: 10px;
+    }
+
+    .what {
+        margin: 10px;
+    }
+
+    .why {
+        margin: 10px;
+    }
+
+    .axis-brand {
+        margin: 10px;
+    }
+
+    .acc {
+        margin: 10px;
+    }
+
+    .late {
+        margin: 10px;
+    }
+
+    .action {
+        margin: 10px;
+    }
+
+    .explore {
+        height: 20px;
+        width: 100px;
+        margin: 5px;
+        font-size: 11px;
+    }
+
+    .view {
+        height: 20px;
+        width: 100px;
+        margin: 5px;
+        font-size: 11px;
+    }
+
+    .start {
+        height: 20px;
+        width: 100px;
+        margin: 5px;
+        font-size: 11px;
+    }
+
+    .explore:hover,
+    .view:hover,
+    .start:hover {
+        width: 115px;
+    }
+
+    .footerbox {
+        margin-top: 10px;
     }
 
     .logo img {
@@ -324,8 +592,8 @@ a {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 305px;
-        font-size: 8px;
+        width: 360px;
+        font-size: 10px;
         gap: 5px;
         margin: 0;
     }
@@ -335,9 +603,8 @@ a {
     }
 
     .copy {
-        width: 320px;
+        width: 400px;
         font-size: 12px;
     }
 
 }
-
